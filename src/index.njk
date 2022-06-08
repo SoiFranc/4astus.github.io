@@ -1,0 +1,35 @@
+---
+title: Accueil-4Astuces
+description: Bienvenu à tous les amoureux du poker amateur. L'association '4Astuces' vous attend. Votre adhésion sera le prétexte pour jouer au poker, jouer entre amis, tournois, gains, cadeaux, et même jouer en ligne avec un célébre jeu online, etc. 
+layout: layout.njk
+linkCSS: css/style.css
+logo4As: img/4As.jpg
+AccueilPage: ./index.html
+HomePage: ./homepage/index.html
+AgendaPage: ./agenda/index.html
+ClassementsPage: ./classements/index.html
+WinamaxPage: ./winamax/index.html
+Nametheque: Infothèque
+mainDivNameClass: mediathequeItem
+mainDivCol: col-md-3
+widthVideo: 320px
+heightVideo: 240px
+linkVideo: ./vid/nextEv.mp4
+---
+      <div id="mediatheque" class="mainImgIntro container">
+        <div>
+          <img src="./img/4Astuces.jpg" style="width:100%;height:auto;"/>
+          <h1>Bienvenu à l'association 4As-t-us<br><span class="lg">Le Poker ?<br>Instant de toutes les émotions !</span></h1>
+          <p>Acmes 2012, Poker Proin mi nibh, rutrum malesuada turpis eu, placerat blandit sapien. Nulla tincidunt justo neque, sed hendrerit lacus tempor ac. Quisque ipsum libero, placerat id tortor et, consequat porttitor nunc. Nam euismod, erat et efficitur volutpat, mauris ligula egestas quam, in sollicitudin eros purus id diam.
+          </p>
+          <h2>{{Nametheque}}</h2>
+            <div id="infotheque" class="mediatheque col-md-12">
+              {% include "artNextEv.njk" %}
+              {% include "artLastEv.njk" %}
+              {% include "artCdo.njk" %}
+              {% include "artNewsOfAsso.njk" %}
+            </div>
+          </div>
+        </div>
+      </div>
+

@@ -1,0 +1,57 @@
+/*************************************************************/
+/********************* Responsive Tablet *********************/
+@media only screen and (min-width:415px) {
+  span.md, div.md.map, #mdImg2 {
+      display:unset;
+  }
+  
+}
+
+
+/*************************************************************/
+/********************* Responsive  Lg **********************/
+@media only screen and (min-width:769px) {
+  div.mainTopLogo img{
+      width:auto;
+      height:181px;
+  }
+  span.lg, div.lg.map, #lgImg3, div#divSideImglg {
+      display:unset;
+  }
+  .noLg {
+      display:none;
+  }
+
+
+  /*** (lg) HOMEPAGE (lg) ***/
+  /*img#1.imgSideImgLg {
+    margin-left: 1px;
+  }*/
+  div.homepage {
+    display:flex;
+    flex-direction:row;
+    margin-top:100px;
+  }
+  section.container.padded {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content:space-between;
+    padding:0 5%;
+  }
+  div.containerCta {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+}
+/***************************************************************/
+/******************* Responsive Desktop xl ********************/
+@media only screen and (min-width:1192px) {
+  .nolx {
+      display:none;
+  }
+  .xl {
+      display: unset;
+  }
+}
